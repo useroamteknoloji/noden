@@ -189,7 +189,7 @@ Still choosing? [Best SSH client for Mac (2026)](https://noden.useroamteknoloji.
 ## FAQ
 
 **Is Noden free?**
-Yes, with limits. The terminal, SFTP, RDP and serial console are free forever, capped at 5 saved connections, 20 vault secrets and your last 50 commands. Pro lifts all three caps and adds the AI assistant for USD 10 per year.
+Yes, with limits. The terminal, SFTP, RDP and serial console are free, capped at 5 saved connections, 20 vault secrets and your last 50 commands. Pro lifts all three caps and adds the AI assistant for USD 10 per year.
 
 **Does Noden work on Apple Silicon?**
 Yes — a universal binary for Apple Silicon and Intel, notarized by Apple, on macOS 13 Ventura and later.
