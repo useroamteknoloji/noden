@@ -46,6 +46,14 @@ The point is not that Noden has four protocols. It is that they share a window. 
 
 Native Swift and SwiftUI. No Electron, no bundled browser. Available as a direct download, via Homebrew, and on the Mac App Store.
 
+## Getting started
+
+![Noden's New Connection dialog with host, port, username and authentication method](https://noden.useroamteknoloji.com/shots/shot-3.png)
+
+Open Noden and press **New Connection**. Give it a host, a username and an authentication method — *Mac SSH Key* picks up the Ed25519 or ECDSA key already in your `~/.ssh` with nothing to configure. Existing `~/.ssh/config` hosts can be imported in one step. Connections can be grouped, and every group is searchable from the sidebar.
+
+Full walkthrough in the [documentation](https://noden.useroamteknoloji.com/docs.html).
+
 ## Terminal
 
 ![Four SSH sessions in a two-by-two grid in Noden](https://noden.useroamteknoloji.com/shots/shot-2.png)
@@ -111,14 +119,6 @@ On a Windows machine it drops the shell talk and answers like a Windows engineer
 
 Use the built-in Noden AI, or bring your own key: presets for ChatGPT (OpenAI), Groq and OpenRouter, or any OpenAI-compatible endpoint including a local model (LM Studio, vLLM). Your key stays in your Mac's Keychain.
 
-## Getting started
-
-![Noden's New Connection dialog with host, port, username and authentication method](https://noden.useroamteknoloji.com/shots/shot-3.png)
-
-Install, open Noden and press **New Connection**. Give it a host, a username and an authentication method — *Mac SSH Key* picks up the Ed25519 or ECDSA key already in your `~/.ssh` with nothing to configure. Existing `~/.ssh/config` hosts can be imported in one step. Connections can be grouped, and every group is searchable from the sidebar.
-
-Full walkthrough in the [documentation](https://noden.useroamteknoloji.com/docs.html).
-
 ## Privacy and safety
 
 - Passwords and keys live only in the macOS Keychain; file contents are never collected
@@ -133,8 +133,9 @@ Security reports: see [SECURITY.md](SECURITY.md).
 
 Free is not a trial. The SSH terminal, the SFTP file manager, RDP and serial consoles all work without paying, within these limits:
 
-| | Free | Pro — USD 10 / year |
+| | Free | Pro |
 |---|---|---|
+| **Price** | USD 0 | **USD 5.99 first year, then USD 10.99 / year** |
 | SSH terminal, split grid, tear-off windows | ✅ | ✅ |
 | SFTP file commander | ✅ | ✅ |
 | RDP remote desktop | ✅ | ✅ |
@@ -144,7 +145,7 @@ Free is not a trial. The SSH terminal, the SFTP file manager, RDP and serial con
 | Command history | Last 50 | Full history |
 | AI command assistant | — | ✅ |
 
-On the Mac App Store, Pro is an auto-renewing subscription managed by Apple; the direct build uses a licence key. A Team plan is planned but **not on sale yet**; everything listed under it on the website is still in development.
+**Noden Pro costs USD 5.99 for the first year and USD 10.99 per year afterwards.** On the Mac App Store, Pro is an auto-renewing subscription managed by Apple; the direct build uses a licence key. A Team plan is planned but **not on sale yet**; everything listed under it on the website is still in development.
 
 ## Languages
 
@@ -189,7 +190,10 @@ Still choosing? [Best SSH client for Mac (2026)](https://noden.useroamteknoloji.
 ## FAQ
 
 **Is Noden free?**
-Yes, with limits. The terminal, SFTP, RDP and serial console are free, capped at 5 saved connections, 20 vault secrets and your last 50 commands. Pro lifts all three caps and adds the AI assistant for USD 10 per year.
+Yes, with limits. The terminal, SFTP, RDP and serial console are free, capped at 5 saved connections, 20 vault secrets and your last 50 commands. Pro lifts all three caps and adds the AI assistant.
+
+**How much does Noden Pro cost?**
+USD 5.99 for the first year, then USD 10.99 per year. One price for everything Pro unlocks — unlimited saved connections, unlimited vault secrets, the full command history and the AI command assistant. Buying on the Mac App Store makes it an Apple-managed auto-renewing subscription; buying directly gives you a licence key.
 
 **Does Noden work on Apple Silicon?**
 Yes — a universal binary for Apple Silicon and Intel, notarized by Apple, on macOS 13 Ventura and later.
