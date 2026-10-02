@@ -1,7 +1,7 @@
 # Noden — SSH, SFTP, RDP & serial console for macOS
 
 <p align="center">
-  <img src="https://noden.useroamteknoloji.com/noden-icon.png?v=2" width="128" alt="Noden app icon">
+  <img src="https://nodenapp.com/noden-icon.png?v=2" width="128" alt="Noden app icon">
 </p>
 
 <p align="center">
@@ -19,14 +19,14 @@
 </p>
 
 <p align="center">
-  <a href="https://noden.useroamteknoloji.com/">Website</a> ·
-  <a href="https://noden.useroamteknoloji.com/docs.html">Documentation</a> ·
+  <a href="https://nodenapp.com/">Website</a> ·
+  <a href="https://nodenapp.com/docs.html">Documentation</a> ·
   <a href="https://apps.apple.com/us/app/noden-ssh-sftp-rdp-vault/id6786746277?mt=12">Mac App Store</a> ·
   <a href="https://github.com/useroamteknoloji/homebrew-tap">Homebrew tap</a> ·
   <a href="https://github.com/useroamteknoloji/noden/releases">Releases</a>
 </p>
 
-![Noden on macOS with a Windows RDP session, two SSH terminals and an SFTP file browser open side by side in one window](https://noden.useroamteknoloji.com/shots/shot-grid.png)
+![Noden on macOS with a Windows RDP session, two SSH terminals and an SFTP file browser open side by side in one window](https://nodenapp.com/shots/shot-grid.png)
 
 ## Install
 
@@ -34,7 +34,7 @@
 brew install --cask useroamteknoloji/tap/noden
 ```
 
-Or download the notarized DMG from the [Noden website](https://noden.useroamteknoloji.com/), or get it on the [Mac App Store](https://apps.apple.com/us/app/noden-ssh-sftp-rdp-vault/id6786746277?mt=12). The direct build updates itself; the App Store build updates through the App Store.
+Or download the notarized DMG from the [Noden website](https://nodenapp.com/), or get it on the [Mac App Store](https://apps.apple.com/us/app/noden-ssh-sftp-rdp-vault/id6786746277?mt=12). The direct build updates itself; the App Store build updates through the App Store.
 
 Requires macOS 13 Ventura or later. Universal binary — Apple Silicon and Intel. Notarized by Apple.
 
@@ -48,15 +48,15 @@ Native Swift and SwiftUI. No Electron, no bundled browser. Available as a direct
 
 ## Getting started
 
-![Noden's New Connection dialog with host, port, username and authentication method](https://noden.useroamteknoloji.com/shots/shot-3.png)
+![Noden's New Connection dialog with host, port, username and authentication method](https://nodenapp.com/shots/shot-3.png)
 
 Open Noden and press **New Connection**. Give it a host, a username and an authentication method — *Mac SSH Key* picks up the Ed25519 or ECDSA key already in your `~/.ssh` with nothing to configure. Existing `~/.ssh/config` hosts can be imported in one step. Connections can be grouped, and every group is searchable from the sidebar.
 
-Full walkthrough in the [documentation](https://noden.useroamteknoloji.com/docs.html).
+Full walkthrough in the [documentation](https://nodenapp.com/docs.html).
 
 ## Terminal
 
-![Four SSH sessions in a two-by-two grid in Noden](https://noden.useroamteknoloji.com/shots/shot-2.png)
+![Four SSH sessions in a two-by-two grid in Noden](https://nodenapp.com/shots/shot-2.png)
 
 - Saved SSH connections with password, Ed25519 and ECDSA key authentication
 - As many sessions as you like: tabs, or a resizable one-to-four-column grid to watch several servers at once
@@ -72,7 +72,7 @@ Full walkthrough in the [documentation](https://noden.useroamteknoloji.com/docs.
 
 ## SFTP file commander
 
-![Noden's dual-pane SFTP browser with the local Mac on the left and the remote server on the right](https://noden.useroamteknoloji.com/shots/shot-files.png)
+![Noden's dual-pane SFTP browser with the local Mac on the left and the remote server on the right](https://nodenapp.com/shots/shot-files.png)
 
 - Dual-pane local/remote, drag and drop in either direction and straight from Finder
 - Native table: resizable, reorderable, sortable columns that remember your layout
@@ -83,7 +83,7 @@ Full walkthrough in the [documentation](https://noden.useroamteknoloji.com/docs.
 
 ## RDP remote desktop
 
-![A Windows desktop running as a tab inside Noden on macOS](https://noden.useroamteknoloji.com/shots/shot-rdp.png)
+![A Windows desktop running as a tab inside Noden on macOS](https://nodenapp.com/shots/shot-rdp.png)
 
 - Windows machines open as a tab next to your Linux shells, or in the grid beside them
 - Rendered with Metal — clipboard and file copy-paste in both directions, and folder sharing into the session
@@ -111,11 +111,11 @@ Full walkthrough in the [documentation](https://noden.useroamteknoloji.com/docs.
 
 Describe a server task in plain English and Noden answers for the machine you are actually on. On a Linux host it writes the shell command and offers to run it — every command is shown before execution and needs your approval, and potentially destructive ones are flagged first.
 
-![Noden's AI assistant turning "show disk usage" into df -h on a Linux server](https://noden.useroamteknoloji.com/shots/shot-4.png)
+![Noden's AI assistant turning "show disk usage" into df -h on a Linux server](https://nodenapp.com/shots/shot-4.png)
 
 On a Windows machine it drops the shell talk and answers like a Windows engineer — the same question comes back as PowerShell.
 
-![The same assistant answering a PowerShell question inside a Windows RDP session](https://noden.useroamteknoloji.com/shots/shot-rdp-ai.png)
+![The same assistant answering a PowerShell question inside a Windows RDP session](https://nodenapp.com/shots/shot-rdp-ai.png)
 
 Use the built-in Noden AI, or bring your own key: presets for ChatGPT (OpenAI), Groq and OpenRouter, or any OpenAI-compatible endpoint including a local model (LM Studio, vLLM). Your key stays in your Mac's Keychain.
 
@@ -165,27 +165,27 @@ Noden is built for people replacing a Windows habit or a stack of separate Mac a
 
 | If you use | Read |
 |---|---|
-| **MobaXterm** on Windows | [MobaXterm alternative for Mac](https://noden.useroamteknoloji.com/mobaxterm-alternative-for-mac.html) — saved sessions, split terminals, SFTP and serial in one window |
-| **PuTTY** on Windows | [PuTTY for Mac](https://noden.useroamteknoloji.com/putty-for-mac.html) — there is no native PuTTY on macOS; here is what to use instead |
-| **WinSCP** on Windows | [WinSCP for Mac](https://noden.useroamteknoloji.com/winscp-alternative-for-mac.html) — dual-pane transfers, natively |
-| **Termius** | [Termius alternative for Mac](https://noden.useroamteknoloji.com/termius-alternative-for-mac.html) |
-| **Royal TSX** | [Royal TSX alternative for Mac](https://noden.useroamteknoloji.com/royal-tsx-alternative-for-mac.html) |
-| **FileZilla** | [FileZilla alternative for Mac](https://noden.useroamteknoloji.com/filezilla-alternative-for-mac.html) |
-| **Microsoft Remote Desktop** | [Microsoft Remote Desktop alternative for Mac](https://noden.useroamteknoloji.com/microsoft-remote-desktop-alternative-for-mac.html) |
-| **iTerm2** | [iTerm2 for SSH](https://noden.useroamteknoloji.com/iterm2-ssh-alternative.html) — what saved connections, SFTP and AI add on top |
-| **SSHive** | [Noden vs SSHive](https://noden.useroamteknoloji.com/noden-vs-sshive.html) |
-| **Tempest** | [Noden vs Tempest](https://noden.useroamteknoloji.com/noden-vs-tempest.html) |
+| **MobaXterm** on Windows | [MobaXterm alternative for Mac](https://nodenapp.com/mobaxterm-alternative-for-mac.html) — saved sessions, split terminals, SFTP and serial in one window |
+| **PuTTY** on Windows | [PuTTY for Mac](https://nodenapp.com/putty-for-mac.html) — there is no native PuTTY on macOS; here is what to use instead |
+| **WinSCP** on Windows | [WinSCP for Mac](https://nodenapp.com/winscp-alternative-for-mac.html) — dual-pane transfers, natively |
+| **Termius** | [Termius alternative for Mac](https://nodenapp.com/termius-alternative-for-mac.html) |
+| **Royal TSX** | [Royal TSX alternative for Mac](https://nodenapp.com/royal-tsx-alternative-for-mac.html) |
+| **FileZilla** | [FileZilla alternative for Mac](https://nodenapp.com/filezilla-alternative-for-mac.html) |
+| **Microsoft Remote Desktop** | [Microsoft Remote Desktop alternative for Mac](https://nodenapp.com/microsoft-remote-desktop-alternative-for-mac.html) |
+| **iTerm2** | [iTerm2 for SSH](https://nodenapp.com/iterm2-ssh-alternative.html) — what saved connections, SFTP and AI add on top |
+| **SSHive** | [Noden vs SSHive](https://nodenapp.com/noden-vs-sshive.html) |
+| **Tempest** | [Noden vs Tempest](https://nodenapp.com/noden-vs-tempest.html) |
 
-Still choosing? [Best SSH client for Mac (2026)](https://noden.useroamteknoloji.com/best-ssh-client-for-mac.html) covers the free and paid options, Noden included.
+Still choosing? [Best SSH client for Mac (2026)](https://nodenapp.com/best-ssh-client-for-mac.html) covers the free and paid options, Noden included.
 
 ## Guides
 
-- [How to use SSH on a Mac](https://noden.useroamteknoloji.com/how-to-use-ssh-on-mac.html) — Terminal.app first, then what a client adds
-- [How to use SFTP on a Mac](https://noden.useroamteknoloji.com/how-to-use-sftp-on-mac.html) — command line and graphical transfers
-- [macOS SSH client](https://noden.useroamteknoloji.com/macos-ssh-client.html) · [Mac SFTP client](https://noden.useroamteknoloji.com/mac-sftp-client.html) · [RDP client for Mac](https://noden.useroamteknoloji.com/rdp-client-for-mac.html)
-- [SSH password manager for Mac](https://noden.useroamteknoloji.com/ssh-password-manager-mac.html) — where server passwords actually belong
-- [AI SSH client](https://noden.useroamteknoloji.com/ai-ssh-client.html) — plain English to commands
-- [SSH, SFTP and RDP in one Mac app](https://noden.useroamteknoloji.com/ssh-sftp-rdp-mac.html)
+- [How to use SSH on a Mac](https://nodenapp.com/how-to-use-ssh-on-mac.html) — Terminal.app first, then what a client adds
+- [How to use SFTP on a Mac](https://nodenapp.com/how-to-use-sftp-on-mac.html) — command line and graphical transfers
+- [macOS SSH client](https://nodenapp.com/macos-ssh-client.html) · [Mac SFTP client](https://nodenapp.com/mac-sftp-client.html) · [RDP client for Mac](https://nodenapp.com/rdp-client-for-mac.html)
+- [SSH password manager for Mac](https://nodenapp.com/ssh-password-manager-mac.html) — where server passwords actually belong
+- [AI SSH client](https://nodenapp.com/ai-ssh-client.html) — plain English to commands
+- [SSH, SFTP and RDP in one Mac app](https://nodenapp.com/ssh-sftp-rdp-mac.html)
 
 ## FAQ
 
@@ -221,7 +221,7 @@ Payment, updates and one sandbox detail. On the App Store, Pro is an Apple subsc
 
 ## Support
 
-- Documentation: https://noden.useroamteknoloji.com/docs.html
+- Documentation: https://nodenapp.com/docs.html
 - Email: noden@useroamteknoloji.com
 - Issues: use this repository's [issue tracker](https://github.com/useroamteknoloji/noden/issues) for reproducible bugs and feature requests
 - Support policy: [SUPPORT.md](SUPPORT.md)
